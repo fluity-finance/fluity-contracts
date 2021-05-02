@@ -68,7 +68,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
       - run: yarn install --frozen-lockfile
-      - run: cd packages/contracts && npx hardhat test test/BorrowerOperationsTest.js
+      - run: npx hardhat test test/BorrowerOperationsTest.js
 
   test-runner-others:
     runs-on: ubuntu-latest
