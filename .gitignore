@@ -1,0 +1,14 @@
+# Editor temp files
+*~
+
+# macOS Finder attribute files
+.DS_Store
+
+node_modules
+
+/temp
+.env
+.eslintcache
+
+# Don't track NPM lockfile (we use Yarn)
+package-lock.json
